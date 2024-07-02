@@ -1,0 +1,45 @@
+/* Reset dei margini e dei padding per il body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile della tabella */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+/* Stile per l'intestazione della tabella */
+th {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px; 
+}
+
+/* Stile per le celle della tabella */
+td {
+    padding: 10px; 
+    border-bottom: 2px solid #ddd; 
+    border-right: 2px solid #ddd; /* Aggiunge un bordo destro a tutte le celle */
+}
+
+/* Stile per le righe della tabella al passaggio del mouse */
+tr:hover {
+    background-color: #f2f2f2; 
+}
+
+/* Stile per i pulsanti */
+button:hover {
+    background-color: #0056b3; 
+}
+
+button {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    text-decoration: none; /* Senza sottolineatura */
+    margin-top: 20px; 
+}

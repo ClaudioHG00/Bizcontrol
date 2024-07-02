@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to bottom, white, LightSteelBlue);
+/*     background-image: url('./resources/wallpaper.webp'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;  */
+    margin:0;
+}
+
+.navbar {
+	background: linear-gradient(to bottom, LightSteelBlue, white)!important;
+
+}
